@@ -1,0 +1,43 @@
+.email-field-wrapper {
+  margin-bottom: 8px;
+}
+.password-field-wrapper {
+  margin-bottom: 16px;
+}
+.field-label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.input-wrapper {
+  position: relative;
+}
+.input-field {
+  position: relative;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.login-btn {
+  display: block;
+  position: absolute;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}

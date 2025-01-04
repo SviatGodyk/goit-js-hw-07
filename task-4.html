@@ -11,17 +11,22 @@
     <p><a href="./index.html">Go back</a></p>
 
     <form class="login-form">
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Password
-        <input type="password" name="password" />
-      </label>
-      <button type="submit">Login</button>
+      <div class="email-field-wrapper">
+        <label class="field-label"> Email</label>
+        <div class="input-wrapper">
+          <input class="input-field" type="email" name="email" />
+        </div>
+      </div>
+      <div class="password-field-wrapper">
+        <label class="field-label"> Password</label>
+        <div class="input-wrapper">
+          <input class="input-field" type="password" name="password" />
+        </div>
+      </div>
+      <button class="login-btn" type="submit">Log in</button>
     </form>
 
     <script src="./js/task-4.js" type="module"></script>
+    <link rel="stylesheet" href="./css/styles4.css" />
   </body>
 </html>

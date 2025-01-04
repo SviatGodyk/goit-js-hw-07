@@ -1,0 +1,39 @@
+.widget {
+  margin: 0 auto;
+  width: 169px;
+  height: 80px;
+}
+.widget-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.color {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.change-color {
+  display: block;
+  position: absolute;
+  margin-left: 10.5px;
+  margin-right: 10.5px;
+  border-radius: 8px;
+  border: 1px solid #4e75ff;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
