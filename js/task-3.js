@@ -3,9 +3,8 @@ const outputEl = document.getElementById(`name-output`);
 inputEl.addEventListener(`input`, () => {
   const fieldValue = inputEl.value;
   if (fieldValue.trim() !== "") {
-    outputEl.textContent = fieldValue.value;
+    outputEl.textContent = fieldValue.trim();
   } else {
     outputEl.textContent = "Anonymous";
   }
-  console.log(fieldValue);
 });
