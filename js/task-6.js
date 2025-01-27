@@ -27,15 +27,12 @@ createBtn.addEventListener(`click`, (event) => {
     div.style.height = `${size}px`;
     div.style.backgroundColor = getRandomHexColor();
     div.style.margin = startMargin;
+    div.classList.add("div-container");
     document.body.appendChild(div);
   }
 });
 
 destroyBtn.addEventListener("click", () => {
-  const divDelete = document.querySelector("div-container");
-  const divEl = document.createElement("div-el");
-  divEl.classList.add("div-container");
-  if (divDelete) {
-    return divDelete.remove();
-  }
+  const divContainers = document.querySelectorAll(".div-container");
+  divContainers.forEach((div) => div.remove());
 });

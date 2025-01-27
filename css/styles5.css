@@ -9,7 +9,6 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 .color {
   font-family: var(--font-family);
@@ -17,7 +16,6 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 .change-color {
   display: block;
